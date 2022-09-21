@@ -1,3 +1,19 @@
+# Unreleased
+
+* Add GitHub Action to update docker hub image
+
+# 5.3.1 - 2022-08-09
+
+* Fix version range for CVE-2022-32209
+
+# 5.3.0 - 2022-08-09
+
+* Include explicit engine or lib paths in vendor/ (Joe Rafaniello)
+* Load rexml as a Brakeman dependency
+* Fix "full call" information propagating unnecessarily
+* Add check for CVE-2022-32209
+* Add CWE information to warnings (Stephen Aghaulor)
+
 # 5.2.3 - 2022-05-01
 
 * Fix error with hash shorthand syntax
